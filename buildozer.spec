@@ -29,3 +29,11 @@ android.permissions = INTERNET
 
 # (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
 log_level = 2
+# (int) Target Android API, should be as high as possible
+android.api = 33
+
+# (int) Minimum API your APK will support
+android.min_api = 21
+
+# (str) Android SDK version to use
+android.sdk = 33
