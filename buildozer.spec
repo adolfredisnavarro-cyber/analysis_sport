@@ -34,6 +34,9 @@ android.min_api = 21
 # (str) Android SDK version to use
 android.sdk = 33
 
+# (str) Version of the Android build tools to use
+android.build_tools_version = 33.0.0
+
 [buildozer]
 
 # (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
