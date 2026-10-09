@@ -43,7 +43,6 @@ jobs:
     - name: Build with Buildozer
       run: |
         export PATH=$PATH:~/.local/bin
-        buildozer clean
         yes | buildozer -v android debug
 
     - name: Upload APK Artifact
