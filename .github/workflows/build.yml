@@ -47,7 +47,8 @@ jobs:
           export PATH=$PATH:~/.local/bin
           mkdir -p ~/.android
           touch ~/.android/repositories.cfg
-          yes | sdkmanager --licenses || true
+          echo y | sdkmanager --licenses || true
+          sdkmanager "build-tools;37.0.0" "platforms;android-33" || true
           buildozer -v android debug
 
       - name: Upload APK Artifact
