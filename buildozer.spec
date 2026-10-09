@@ -6,6 +6,9 @@ title = Análisis Sport
 # (str) Package name
 package.name = analysissport
 
+source.dir = .
+version = 0.1
+
 # (str) Package domain (needed for android packaging)
 package.domain = org.analysissport
 
