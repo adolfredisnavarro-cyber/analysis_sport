@@ -16,7 +16,6 @@ package.domain = org.analysissport
 source.include_exts = py,png,jpg,kv,atlas
 
 # (list) Application requirements
-# Incluye aquí las librerías que uses en tu proyecto (ej: kivy, requests, etc.)
 requirements = python3,kivy
 
 # (str) Supported orientations
@@ -30,9 +29,6 @@ android.api = 33
 
 # (int) Minimum API your APK will support
 android.min_api = 21
-
-# (str) Android SDK version to use
-android.sdk = 33
 
 # (str) Version of the Android build tools to use
 android.build_tools_version = 33.0.0
